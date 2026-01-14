@@ -1,6 +1,27 @@
 .venv
 .vscode
-.env
 ./web/.env
 ./server/.env
 ./web/node_modules
+
+
+# ===== Frontend (Next.js) =====
+web/node_modules/
+web/.next/
+web/.env*
+
+# ===== Backend (Python) =====
+server/.env*
+server/__pycache__/
+server/logs/
+
+# ===== Python =====
+.venv
+__pycache__/
+
+# ===== OS =====
+.DS_Store
+config.bat
+node_modules
+temp_auto_push.bat
+temp_interactive_push.bat
